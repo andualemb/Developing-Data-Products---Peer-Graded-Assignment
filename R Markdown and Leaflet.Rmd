@@ -1,0 +1,46 @@
+---
+title: "Coursera-JHU-Data Science Specialization-Developing Data Products-Week 2-Assignment"
+author: "Andualem Bekele"
+date: "August 25, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown is to creates a web page using R Markdown that features a map created with Leaflet.
+
+My First Map
+Let's create a map that shows the Tour Eiffel in Paris.To do that, let's first load the library Leaflet.
+
+```{r}
+library(leaflet)
+
+```
+
+## Create the map of Elis Island
+
+
+
+```{r }
+library(leaflet)
+my_map <- leaflet() %>%
+  addTiles()
+"The map of Ellis Island Showing Lady Liberty"
+leaflet() %>%
+addTiles() %>%
+addMarkers(lat=40.6892, lng=-74.0445, 
+           popup ="LadyL iberty")
+
+```
+Go ahead and click the blue marker on the map, it will display Lady Liberty.
+
+
+
+
+
+
+
